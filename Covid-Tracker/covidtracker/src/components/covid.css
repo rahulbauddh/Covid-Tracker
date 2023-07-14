@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@800&display=swap');
+*{
+    margin-left: 5px;
+    color: black;
+}
+
+.subContainerOne{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.subContainerTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card{
+    font-family: 'Archivo', sans-serif;
+    display: flex;
+    width: 20vw;
+    margin : 30px 30px;
+    font-size: x-large;
+    background-color: burlywood;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.mainHeading{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.cardHeading{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 20vw;
+}
+.cardName{
+    padding: 5px;
+}
+.cardDetails{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+.cardTotal{
+    display: flex;
+    padding: 5px 5px;
+    justify-content: center;
+}
+.spanStyling{
+    font-size: 16px;
+    color:rgb(81, 78, 75);
+}
